@@ -91,3 +91,32 @@ for i in range(1, n + 1):
 		print(chr(64 + j), end = " ")
 	print()
 
+print()
+print("Number 11")
+print()
+
+for i in range(1, n + 1):
+	for j in range(1, n + 2 - i):
+		print("*", end = " ")
+	print()
+
+print()
+print("Number 12")
+print()
+
+n = 9
+for i in range(1, n + 1):
+	for j in range(1, n + 1 - i):
+		print(i, end = " ")
+	print()
+
+
+print()
+print("Number 13")
+print()
+
+n = 10
+for i in range(1, n + 1):
+	for j in range(1, n + 2 - i):
+		print(j, end = " ")
+	print()
