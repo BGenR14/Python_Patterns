@@ -120,3 +120,22 @@ for i in range(1, n + 1):
 	for j in range(1, n + 2 - i):
 		print(j, end = " ")
 	print()
+
+print()
+print("Number 14")
+print()
+
+n = 10
+for i in range(1, n + 1):
+	for j in range(1, n + 2 - i):
+		print(chr(64 + i), end = " ")
+	print()
+
+print()
+print("Number 15")
+print()
+
+for i in range(1, n + 1):
+	for j in range(1, n + 2 - i):
+		print(chr(64 + j), end = " ")
+	print()
